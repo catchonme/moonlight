@@ -1,0 +1,119 @@
+.btn {
+  display: inline-block;
+  padding: 4px 12px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: $btn-line-height;
+  font-size: $btn-font-size;
+  border: $btn-border-width solid transparent;
+  border-radius: $btn-border-radius;
+  cursor: pointer;
+  outline: none;
+
+  &.fluid {
+    display: block;
+    width: 100%;
+  }
+
+  &.default {
+    color:#fff;
+    background-color: $color-default;
+
+    &:hover {
+      background-color: darken($color-default, 5%);
+    }
+
+    &:focus {
+      background-color: darken($color-default, 5%);
+    }
+
+    &:active {
+      background-color: darken($color-default, 5%);
+    }
+  }
+
+  &.primary {
+    color: #fff;
+    background-color: $color-primary;
+
+    &:hover {
+      background-color: darken($color-primary, 5%);
+    }
+
+    &:focus {
+      background-color: darken($color-primary, 5%);
+    }
+
+    &:active {
+      background-color: darken($color-primary, 5%);
+    }
+  }
+
+  &.info {
+    color: #fff;
+    background-color: $color-info;
+
+    &:hover {
+      background-color: darken($color-info, 5%);
+    }
+
+    &:focus {
+      background-color: darken($color-info, 5%);
+    }
+
+    &:active {
+      background-color: darken($color-info, 5%);
+    }
+  }
+
+  &.success {
+    color: #fff;
+    background-color: $color-success;
+
+    &:hover {
+      background-color: darken($color-success, 5%);
+    }
+
+    &:focus {
+      background-color: darken($color-success, 5%);
+    }
+
+    &:active {
+      background-color: darken($color-success, 5%);
+    }
+  }
+
+  &.warning {
+    color: #fff;
+    background-color: $color-warning;
+
+    &:hover {
+      background-color: darken($color-warning, 5%);
+    }
+
+    &:focus {
+      background-color: darken($color-warning, 5%);
+    }
+
+    &:active {
+      background-color: darken($color-warning, 5%);
+    }
+  }
+
+  &.danger {
+    color: #fff;
+    background-color: $color-danger;
+
+    &:hover {
+      background-color: darken($color-danger, 5%);
+    }
+
+    &:focus {
+      background-color: darken($color-danger, 5%);
+    }
+
+    &:active {
+      background-color: darken($color-danger, 5%);
+    }
+  }
+}
